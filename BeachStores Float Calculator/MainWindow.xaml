@@ -28,6 +28,11 @@
         <Label Content="Roulette" HorizontalAlignment="Left" Margin="361,86,0,0" VerticalAlignment="Top" Width="115" BorderBrush="Black" BorderThickness="1" />
         <Label Content="Sterling" HorizontalAlignment="Left" Margin="361,124,0,0" VerticalAlignment="Top" Width="115" BorderBrush="Black" BorderThickness="1"/>
 
+        <Label Content="$50 Total" HorizontalAlignment="Left" Margin="360,432,0,0" VerticalAlignment="Top" Width="115" BorderBrush="Black" BorderThickness="1"/>
+        <Label Content="$20 Total" HorizontalAlignment="Left" Margin="360,473,0,0" VerticalAlignment="Top" Width="115" BorderBrush="Black" BorderThickness="1"/>
+        <Label Content="$10 Total" HorizontalAlignment="Left" Margin="361,511,0,0" VerticalAlignment="Top" Width="115" BorderBrush="Black" BorderThickness="1"/>
+        <Label Content="$5 Total" HorizontalAlignment="Left" Margin="361,549,0,0" VerticalAlignment="Top" Width="115" BorderBrush="Black" BorderThickness="1"/>
+
         <TextBox x:Name="txtbxSafe" HorizontalAlignment="Left" Height="28" Margin="130,10,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="114"/>
         <TextBox x:Name="txtbxPots" HorizontalAlignment="Left" Height="28" Margin="130,48,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="114"/>
         <TextBox x:Name="txtbxBaggedCoins" HorizontalAlignment="Left" Height="28" Margin="130,86,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="114"/>
@@ -48,8 +53,12 @@
         <TextBox x:Name="txtbxPrintedTicket" HorizontalAlignment="Left" Height="28" Margin="481,48,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="114"/>
         <TextBox x:Name="txtbxRoulette" HorizontalAlignment="Left" Height="28" Margin="481,86,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="114"/>
         <TextBox x:Name="txtbxSterling" HorizontalAlignment="Left" Height="28" Margin="481,124,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="114"/>
-        <TextBlock x:Name="txtblTotal" HorizontalAlignment="Left" Margin="481,203,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Height="45" Width="147" FontWeight="Bold" FontSize="20"/>
-        <Button x:Name="btnCalculate" Content="Calculate" HorizontalAlignment="Left" Margin="361,203,0,0" VerticalAlignment="Top" Width="114" Click="btnCalculate_Click" Height="29"/>
+        <TextBlock x:Name="txtblTotal" HorizontalAlignment="Left" Margin="481,389,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Height="28" Width="147" FontWeight="Bold" FontSize="20"/>
+        <TextBlock x:Name="txtblTotal50" HorizontalAlignment="Left" Margin="481,432,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Height="28" Width="147" FontSize="20"/>
+        <TextBlock x:Name="txtblTotal20" HorizontalAlignment="Left" Margin="481,473,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Height="28" Width="147" FontSize="20"/>
+        <TextBlock x:Name="txtblTotal10" HorizontalAlignment="Left" Margin="481,511,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Height="28" Width="147"  FontSize="20"/>
+        <TextBlock x:Name="txtblTotal5" HorizontalAlignment="Left" Margin="481,549,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Height="28" Width="147" FontSize="20"/>
+        <Button x:Name="btnCalculate" Content="Calculate" HorizontalAlignment="Left" Margin="361,389,0,0" VerticalAlignment="Top" Width="114" Click="btnCalculate_Click" Height="29"/>
 
 
 

@@ -56,6 +56,10 @@ namespace BeachStores_Float_Calculator
             double total = (safe+fiftyCentPot+baggedCoins+book+fiftyNotes+twentyNotes+tenNotes+fiveNotes+twoEuro+oneEuro+fiftyCent+twentyCent+tenCent+fiveCent+twoCent+oneCent+voucher+PrintedTickets+roulette+sterling);
 
             txtblTotal.Text = $"{total:C}";
+            txtblTotal50.Text = $"{fiftyNotes}";
+            txtblTotal20.Text = $"{twentyNotes}";
+            txtblTotal10.Text = $"{tenNotes}";
+            txtblTotal5.Text = $"{fiveNotes}";
 
 
         }
